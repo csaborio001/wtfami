@@ -1,0 +1,71 @@
+{
+	"config": {
+	  "id": "001"
+	},
+	"data": [
+		{
+			"id": 0,
+			"answer": "Donald J. Trump",
+			"image" : "01.jpg",
+			"keywords": [
+				"number 45",
+				"orange",
+				"arrogant",
+				"has four children",
+				"lives in the US"
+			]
+		},
+		{
+			"id": 1,
+			"answer": "Cookie Monster",
+			"image" : "02.jpg",
+			"keywords": [
+				"am in the tellie",
+				"i have an addiction",
+				"me talk funny like this",
+				"i'm furry and blue",
+				"i live in Sesame St."
+			]
+		},
+		{
+			"id": 2,
+			"answer": "Cowardly Lion",
+			"image" : "03.jpg",
+			"keywords": [
+				"I'm furry all over",
+				"I'm from a movie",
+				"originally b/w movie",
+				"they say I lack balls",
+				"some think I'm gay",
+				"I'm friends of Dorothy"
+			]
+		},
+		{
+			"id": 3,
+			"answer": "Vincent Van Gogh",
+			"image" : "04.jpg",
+			"keywords": [
+				"I was an artist",
+				"My brother is Theo",
+				"Some say I was a bit mad",
+				"painted a skeleton smoking",
+				"I was dutch",
+				"took the knife to my ear"
+			]
+		},
+		{
+			"id": 4,
+			"answer": "Gladys Berejiklian",
+			"image" : "05.jpg",
+			"keywords": [
+				"I have 2 sisters",
+				"Never been married",
+				"am in politics",
+				"one of my organs is quite big",
+				"my parents are Armenian",
+				"took the knife to my ear",
+				"i had a thing for Dirty Daryl"
+			]
+		}
+	]
+}

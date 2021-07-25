@@ -1,0 +1,73 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+#quiz-frame {
+	height: 100vh;
+	background-color: black;
+}
+
+#image-container {
+	width: 80vw;
+	height: 90%;
+	margin: auto;
+	background-color: rebeccapurple;
+	position: relative;
+	display: flex;
+}
+
+#image-container img {
+	width: 100%;
+	object-fit: contain;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.image-start {
+	transition-property: filter opacity width;
+	transition-timing-function: ease-in-out;
+	transition-duration: 1s;
+}
+
+#clues {
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 700;
+	color: red;
+	justify-content: center;
+	bottom: 0%;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+}
+
+#clues > * {
+	padding: 0 1rem;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: 5s ease-in top;
+	font-size: 10rem;
+}
+
+.fadeAway {
+	top: 100% !important;
+}
+
+#action, #clear {
+    margin: 1rem auto;
+    width: 10rem;
+    padding: 1rem;
+}
+
+.navigation {
+	display: flex;
+}
+
